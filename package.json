@@ -1,5 +1,5 @@
 {
-  "name": "@configureit/ckeditor5-build-classic-advanced",
+  "name": "@simha95/ckeditor5-build-classic-advanced",
   "version": "31.1.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -71,8 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-classic"
+    "url": "git+https://github.com/simha95/ckeditor5-build-classic-advanced.git"
   },
   "scripts": {
     "build": "webpack --mode production",

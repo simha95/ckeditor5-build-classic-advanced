@@ -23,7 +23,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @configureit/ckeditor5-build-classic-advanced
+npm install --save @simha95/ckeditor5-build-classic-advanced
 ```
 
 And use it in your website:
@@ -32,7 +32,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@configureit/ckeditor5-build-classic-advanced/build/ckeditor.js"></script>
+<script src="./node_modules/@simha95/ckeditor5-build-classic-advanced/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -48,10 +48,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@configureit/ckeditor5-build-classic-advanced';
+import ClassicEditor from '@simha95/ckeditor5-build-classic-advanced';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@configureit/ckeditor5-build-classic-advanced' );
+// const ClassicEditor = require( '@simha95/ckeditor5-build-classic-advanced' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
